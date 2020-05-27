@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "99552848449",
+    "firebase_url": "https://teacafe-cf8fa.firebaseio.com",
+    "project_id": "teacafe-cf8fa",
+    "storage_bucket": "teacafe-cf8fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99552848449:android:8a73b924308562053d74c0",
+        "android_client_info": {
+          "package_name": "com.example.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99552848449-p10i6qbem95v2qe2upolkg4tpt69smre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxopPPvQUC-dNiEjHiPeVrWSZjM2eJGNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99552848449-p10i6qbem95v2qe2upolkg4tpt69smre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
