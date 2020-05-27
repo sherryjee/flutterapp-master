@@ -69,9 +69,7 @@ class _MappingState extends State<mapping>{
           auth:widget.auth,
           onSignOut: _SignedOut,
         );
-      case AuthStatus.signedIn:
-        return home_page();
-         
+
 
     }
 

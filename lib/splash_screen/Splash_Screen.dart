@@ -22,10 +22,12 @@ void initState(){
     super.initState();
     Future.delayed(Duration(seconds:5),
         (){
-      Navigator.pushReplacement(context, MaterialPageRoute(builder:(context)=>mapping(auth: Auth(),),));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder:(context)=> home_page()));
     }
 
     );
+
+
 
 
 
@@ -65,10 +67,10 @@ void initState(){
 
                       CircularProgressIndicator(),
                       Padding(padding: EdgeInsets.only(top:20,bottom: 10.0)),
-                      Center(child: Text("Create by the team of flutter Iqrarians",style:TextStyle(fontSize:20,color: Colors.white ),),),
+                      Center(child: Text("CREATED BY TEAM FLUTTER IQRAIANS",style:TextStyle(fontSize:20,color: Colors.white ),),),
                       Container(
-                        
-                        child: Text("Thanks for the Support Sir SYED TAHA ALI",style:TextStyle(fontSize:14,color: Colors.white ),),
+
+                        child: Text("SYED MUHAMMAD SHAHERYAR AND UMER NAEEM QURESHI",style:TextStyle(fontSize:14,color: Colors.white ),),
                       padding: EdgeInsets.all(5.0),)
                     ],
               ))

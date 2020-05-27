@@ -8,6 +8,8 @@ import 'package:loginapp/popularpage/slider.dart';
 
 import '../global.dart';
 
+
+
 class PopularItems extends StatelessWidget {
   final List<Map> items = [
     {"img": "assets/food1.jpeg", "name": "Fruit Salad"},
@@ -26,6 +28,8 @@ class PopularItems extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<Widget> gridItems = List();
+
+    //popular items firebase
 
     return ListView(
           children: <Widget>[

@@ -118,7 +118,7 @@ class account_page extends StatelessWidget{
             ),
             ListTile(
               title: Text('Date of Birth'),
-              subtitle: Text('Female'),
+              subtitle: Text('---------'),
               trailing: Column(
                 children: <Widget>[
                 ],

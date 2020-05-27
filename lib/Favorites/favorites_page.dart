@@ -4,6 +4,11 @@ import 'package:loginapp/CustomWidgets/circular_button.dart';
 import 'package:loginapp/CustomWidgets/custom_scaffold.dart';
 import 'package:loginapp/global.dart';
 
+
+
+//firebase calling
+
+
 class FavoritesPage extends StatelessWidget {
 
   final List<Map> items = [

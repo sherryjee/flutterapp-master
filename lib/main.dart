@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.redAccent
         ),
 
-        home:mapping(auth: Auth(),)
+        home:Splash_Screen(),
         //home_page(),
 
 

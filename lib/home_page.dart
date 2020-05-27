@@ -14,6 +14,7 @@ class home_page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
+      
       index: 0,
       title: 'SUB KHALO',
       body: slider(),
